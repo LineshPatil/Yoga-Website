@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" type="text/css" href="style1.css">
+<style>
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+h2 {
+  text-transform: uppercase;
+  color: white;
+}
+
+p.italic {
+  font-style: italic;
+  padding-left: 10% ;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+p{
+	font-size: 25px;
+	color: white;
+}
+img{
+	border-radius: 25px;
+  text-align: center;
+}
+
+div {    
+   
+ }  
+ img{  
+ height: 720px;  
+ width: 1080px;  
+ }  
+
+ #center {    
+ text-align: center;  
+ }  
+ 
+ .zoom {
+   transition: transform .2s; 
+    margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+}
+
+</style>
+</head>
+
+<body>
+<header class="site-headers1">
+<button onclick="goBack()">Go Back</button>
+<div class="Hairfall">
+<h1><div class="zoom"> Asanas</h1></div><br>
+<p class="italic">An asana is a posture. There are innumerable postures your body can take. Among these, certain postures have been identified as “yoga asanas” or yogasanas. “Yoga” means that which takes you on to a higher dimension or higher perception of life. So, that kind of posture which leads you to a higher possibility is called a “yogasana.”</p><br>
+<div id = "center">
+<img src="https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTgwOTN8MHwxfHNlYXJjaHw0fHx5b2dhfGVufDB8fHx8MTYyMjQ3NTU0OQ&ixlib=rb-1.2.1&q=80&w=1080"  width="1000" height="600"><br>
+</div> 
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+
+
+</header>
+</body>
+</html> 
